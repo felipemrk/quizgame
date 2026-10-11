@@ -31,7 +31,10 @@ Para encerrar, feche a janela preta do servidor.
 
 ## Regras rápidas
 
-- **10 rodadas**, 1 pergunta por rodada. Cada bloco de 3 perguntas vai do fácil ao difícil.
+- **10 rodadas**, 1 pergunta por rodada.
+- **Dificuldade** (escolhida no saguão):
+  - 🎲 **Misto** (padrão): cada bloco de 3 perguntas vai do fácil ao difícil, e a final é difícil.
+  - 🟢 **Só fácil**, 🟡 **Só média** ou 🔴 **Só difícil**: todas as perguntas da partida, inclusive a final, ficam no nível escolhido. Se uma categoria não tiver perguntas daquele nível (ex.: Família só com fáceis), o jogo usa o nível mais próximo.
 - **Votação** nas rodadas 1, 4 e 7: 3 categorias sorteadas, a mais votada vale para o bloco. Categorias que já apareceram numa votação não voltam até a rodada final.
 - **Leitura:** a pergunta aparece sozinha na tela principal por 2 s; depois as alternativas surgem nos controles e começam os 15 s.
 - **Pontos:** acerto vale 500 + bônus de até 500 pela rapidez (bônus cheio até 0,5 s). Erro vale 0. O tempo conta a partir de quando as alternativas aparecem.

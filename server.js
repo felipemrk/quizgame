@@ -90,6 +90,7 @@ io.on('connection', socket => {
   // Tela principal
   socket.on('tv:entrar', () => { socket.join('tv'); jogo.transmitir(); });
   socket.on('tv:categoria', id => jogo.alternarCategoria(id));
+  socket.on('tv:dificuldade', modo => jogo.definirDificuldade(modo));
   socket.on('tv:remover', id => jogo.removerJogador(id));
   socket.on('tv:iniciar', () => jogo.iniciar());
   socket.on('tv:novaPartida', () => jogo.novaPartida());
